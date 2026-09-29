@@ -1,0 +1,28 @@
+book_sales_exam/
+├── start_exam.py          # автоматичний PostgreSQL + БД + Python + запуск проєкту
+├── main.py                # основна точка входу
+├── cli.py                 # консольні меню
+├── config.py              # читання налаштувань .env
+├── database.py            # підключення та ініціалізація PostgreSQL
+├── seed.py                # створення таблиць + demo data
+├── requirements.txt
+├── README.md
+├── .env.example
+├── .gitignore
+├── repositories/
+│   ├── __init__.py
+│   ├── employees.py
+│   ├── books.py
+│   └── sales.py
+├── services/
+│   ├── __init__.py
+│   └── reports.py
+├── utils/
+│   ├── __init__.py
+│   ├── input_helpers.py
+│   └── formatters.py
+├── sql/
+│   ├── init_db.sql
+│   └── seed.sql
+└── export/
+    └── .gitkeep
